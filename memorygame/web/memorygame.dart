@@ -5,8 +5,8 @@ import 'dart:async';  //for Timer
 
 const int NUM_CARDS = 16;
 const int NUM_OF_EACH = 4;
-const String CARD_BACK = "img/card_back.png";
-const List<String> CARD_FILE_NAMES = const ["img/dog.png", "img/cat.png", "img/giraffe.png", "img/turtle.png"];
+const String CARD_BACK = "image/card_back.png";
+const List<String> CARD_FILE_NAMES = const ["image/dog.png", "image/cat.png", "image/giraffe.png", "image/turtle.png"];
 
 int strikes, cardsLeft;
 List<String> cards;   //the actual deck
